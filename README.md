@@ -1,6 +1,6 @@
 # API to detect blood on face
 
-#### Use case of the API
+### Use case of the API
 1. We can use this API to detect the severity of accident by checking if the driver is bleeding
 2. We can use the API in CCTV cameras to identify if someone is bleeding
 3. Can be used for other face detection system
