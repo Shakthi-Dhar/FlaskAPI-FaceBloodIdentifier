@@ -15,20 +15,24 @@
 
 The API accepts only POST request as a JSON format:
 
-{
+    {
 
-"url" : "Input the image url here"
+    "url" : "Input the image url here"
 
-}
+    }
 
 The response given by the API is alson in Json format with a boolean value for the key "Blood detected":
 
-{
+    {
 
     "Blood detected": 0 if No blood is detect, 1 if Blood is detected 
 
-}
+    }
 
-#### Check out the machine learning model used,[FaceBloodIdentifier](https://github.com/Shakthi-Dhar/FaceBloodIdentifier).
+#### Check out the machine learning model used,[FaceBloodIdentifier](https://github.com/Shakthi-Dhar/FaceBloodIdentifier)
 
-#### Test the API on postman with POST request, API url: [https://faceblood-detection-api.herokuapp.com/](https://faceblood-detection-api.herokuapp.com/).
+#### Test the API on postman with POST request, API url: [https://faceblood-detection-api.herokuapp.com/](https://faceblood-detection-api.herokuapp.com/)
+
+#### Check out the github repository of the API: [Flask API to detect face blood](https://github.com/Shakthi-Dhar/FlaskAPI-FaceBloodIdentifier)
+
+#### Check out the IoT device tools & code : [Accident Detection with ESP8266](https://github.com/Shakthi-Dhar/Accident_Detect_ESP8266_MPU6050)
